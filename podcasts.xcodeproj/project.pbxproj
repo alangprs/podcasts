@@ -9,23 +9,27 @@
 /* Begin PBXBuildFile section */
 		4D0C16202603BC85006F580B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C161F2603BC85006F580B /* AppDelegate.swift */; };
 		4D0C16222603BC85006F580B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C16212603BC85006F580B /* SceneDelegate.swift */; };
-		4D0C16242603BC85006F580B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C16232603BC85006F580B /* ViewController.swift */; };
 		4D0C16272603BC85006F580B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C16252603BC85006F580B /* Main.storyboard */; };
 		4D0C16292603BC86006F580B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C16282603BC86006F580B /* Assets.xcassets */; };
 		4D0C162C2603BC86006F580B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C162A2603BC86006F580B /* LaunchScreen.storyboard */; };
 		4D0C16342603BE69006F580B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C16332603BE69006F580B /* FirstViewController.swift */; };
+		4D0C16392605058B006F580B /* The KK Show-#67 美國在台協會文化官.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C16372605058B006F580B /* The KK Show-#67 美國在台協會文化官.mp4 */; };
+		4D0C163A2605058B006F580B /* The KK Show - #70 Clubhouse 認識的朋友 - 葉耀元教授.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C16382605058B006F580B /* The KK Show - #70 Clubhouse 認識的朋友 - 葉耀元教授.mp4 */; };
+		4D0C163C26050930006F580B /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C163B26050930006F580B /* Music.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D0C161C2603BC85006F580B /* podcasts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = podcasts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0C161F2603BC85006F580B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D0C16212603BC85006F580B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D0C16232603BC85006F580B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D0C16262603BC85006F580B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D0C16282603BC86006F580B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D0C162B2603BC86006F580B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D0C162D2603BC86006F580B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0C16332603BE69006F580B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4D0C16372605058B006F580B /* The KK Show-#67 美國在台協會文化官.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "The KK Show-#67 美國在台協會文化官.mp4"; path = "../../../../Downloads/The KK Show-#67 美國在台協會文化官.mp4"; sourceTree = "<group>"; };
+		4D0C16382605058B006F580B /* The KK Show - #70 Clubhouse 認識的朋友 - 葉耀元教授.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "The KK Show - #70 Clubhouse 認識的朋友 - 葉耀元教授.mp4"; path = "../../../../Downloads/The KK Show - #70 Clubhouse 認識的朋友 - 葉耀元教授.mp4"; sourceTree = "<group>"; };
+		4D0C163B26050930006F580B /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 		4D0C161E2603BC85006F580B /* podcasts */ = {
 			isa = PBXGroup;
 			children = (
+				4D0C16382605058B006F580B /* The KK Show - #70 Clubhouse 認識的朋友 - 葉耀元教授.mp4 */,
+				4D0C16372605058B006F580B /* The KK Show-#67 美國在台協會文化官.mp4 */,
 				4D0C161F2603BC85006F580B /* AppDelegate.swift */,
 				4D0C16212603BC85006F580B /* SceneDelegate.swift */,
-				4D0C16232603BC85006F580B /* ViewController.swift */,
 				4D0C16252603BC85006F580B /* Main.storyboard */,
 				4D0C16332603BE69006F580B /* FirstViewController.swift */,
+				4D0C163B26050930006F580B /* Music.swift */,
 				4D0C16282603BC86006F580B /* Assets.xcassets */,
 				4D0C162A2603BC86006F580B /* LaunchScreen.storyboard */,
 				4D0C162D2603BC86006F580B /* Info.plist */,
@@ -129,6 +135,8 @@
 			files = (
 				4D0C162C2603BC86006F580B /* LaunchScreen.storyboard in Resources */,
 				4D0C16292603BC86006F580B /* Assets.xcassets in Resources */,
+				4D0C163A2605058B006F580B /* The KK Show - #70 Clubhouse 認識的朋友 - 葉耀元教授.mp4 in Resources */,
+				4D0C16392605058B006F580B /* The KK Show-#67 美國在台協會文化官.mp4 in Resources */,
 				4D0C16272603BC85006F580B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,10 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0C16242603BC85006F580B /* ViewController.swift in Sources */,
 				4D0C16202603BC85006F580B /* AppDelegate.swift in Sources */,
 				4D0C16222603BC85006F580B /* SceneDelegate.swift in Sources */,
 				4D0C16342603BE69006F580B /* FirstViewController.swift in Sources */,
+				4D0C163C26050930006F580B /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
