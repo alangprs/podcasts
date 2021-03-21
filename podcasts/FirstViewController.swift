@@ -12,7 +12,7 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var playButton: UIButton! //播放按鈕
     @IBOutlet weak var playNextButton: UIButton!//下一首按鈕
     @IBOutlet weak var playBackButton: UIButton!//上一首按鈕
-    
+    @IBOutlet weak var scheduleSlider: UISlider!//播放進度slider
     
     
     
@@ -48,6 +48,7 @@ class FirstViewController: UIViewController {
     //播放按鈕
     @IBAction func playingMusic(_ sender: UIButton) {
         playMusic()
+        
         if play.timeControlStatus == .playing{
             play.pause()
             playButton.setImage(playIcon, for: .normal)

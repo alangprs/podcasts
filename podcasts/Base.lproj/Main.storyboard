@@ -160,6 +160,7 @@
                         <outlet property="playBackButton" destination="rNj-BK-icP" id="J6z-9Y-lr3"/>
                         <outlet property="playButton" destination="fZq-Ps-abc" id="Kgd-I2-5Lt"/>
                         <outlet property="playNextButton" destination="lCL-Gb-0Dt" id="K72-Zt-nYn"/>
+                        <outlet property="scheduleSlider" destination="yt4-YM-JE2" id="Es6-ht-GUb"/>
                         <outlet property="subTitle" destination="hAU-ZZ-cDZ" id="0UU-PI-ckF"/>
                         <outlet property="titleNameLabel" destination="FKr-ti-7BG" id="bqI-J3-172"/>
                     </connections>
