@@ -40,7 +40,7 @@
                             <slider opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="999" translatesAutoresizingMaskIntoConstraints="NO" id="yt4-YM-JE2">
                                 <rect key="frame" x="35" y="399" width="345" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="minimumTrackTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="minimumTrackTintColor" systemColor="labelColor"/>
                                 <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="thumbTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </slider>
@@ -91,7 +91,7 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30" scale="large"/>
                                 </state>
                                 <connections>
-                                    <action selector="backPlaying:" destination="cge-Bp-A2Q" eventType="touchUpInside" id="YMT-kb-pDl"/>
+                                    <action selector="backPlaying:" destination="cge-Bp-A2Q" eventType="touchUpInside" id="vKG-8b-XQE"/>
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="AmZ-Vf-gmr">
@@ -157,9 +157,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="nowTimeLabel" destination="8UP-dZ-fhi" id="AEn-IZ-QKo"/>
                         <outlet property="playBackButton" destination="rNj-BK-icP" id="J6z-9Y-lr3"/>
                         <outlet property="playButton" destination="fZq-Ps-abc" id="Kgd-I2-5Lt"/>
                         <outlet property="playNextButton" destination="lCL-Gb-0Dt" id="K72-Zt-nYn"/>
+                        <outlet property="remainLabel" destination="vBw-L9-aoX" id="uoP-l2-5Wg"/>
                         <outlet property="scheduleSlider" destination="yt4-YM-JE2" id="Es6-ht-GUb"/>
                         <outlet property="subTitle" destination="hAU-ZZ-cDZ" id="0UU-PI-ckF"/>
                         <outlet property="titleNameLabel" destination="FKr-ti-7BG" id="bqI-J3-172"/>

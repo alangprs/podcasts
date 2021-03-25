@@ -13,7 +13,9 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var playNextButton: UIButton!//下一首按鈕
     @IBOutlet weak var playBackButton: UIButton!//上一首按鈕
     @IBOutlet weak var scheduleSlider: UISlider!//播放進度slider
+    @IBOutlet weak var nowTimeLabel: UILabel! //目前播放時間label
     
+    @IBOutlet weak var remainLabel: UILabel! //剩餘時間
     
     
     var musics = [Music]() //導入自定義資料
@@ -43,6 +45,7 @@ class FirstViewController: UIViewController {
         musics.shuffle() //打亂順序
         //開場聲音大小
         play.volume = 0.5
+       
     }
     
     //播放按鈕
@@ -56,16 +59,26 @@ class FirstViewController: UIViewController {
             play.play()
             playButton.setImage(pauseIconn, for: .normal)
         }
-       
+       //看播放進度slider
+        scheduleSlider.value = Float(play.currentTime().seconds)
+        //顯示目前播放進度
+        
+        
     }
     //下一首按鈕動作
     @IBAction func nextPlaying(_ sender: UIButton) {
         index += 1
+        if index == musics.count{
+            index = 0
+            }
         playMusic()
-    }
+        }
     //上一首動作
     @IBAction func backPlaying(_ sender: UIButton) {
         index -= 1
+        if index == -1{
+            index = musics.count - 1
+        }
         playMusic()
     }
     //更改聲音大小slider
@@ -73,3 +86,4 @@ class FirstViewController: UIViewController {
         play.volume = sender.value //音量大小跟著slider的值改變
     }
 }
+
